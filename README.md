@@ -35,6 +35,14 @@ $ composer install
 // include __DIR__ . '/vendor/autoload.php';
 include __DIR__ . '/src/Meting.php';
 ```
+## 构建docker镜像
+
+## 使用构建好的docker镜像
+
+```shell
+docker pull banxiachuqing/meting-api:1.2.1
+docker run -itd -p 80:80 banxiachuqing/meting-api:1.2.1
+```
 
 修改代码参数
 
